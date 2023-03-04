@@ -1,0 +1,20 @@
+package peso;
+import java.util.Scanner;
+
+public class Peso {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+   double peso; 
+        System.out.print("Introduzca su peso:");
+    peso = entrada.nextDouble();
+     if(peso<=50){
+         System.out.println("La persona es muy delgada");}
+     else if(peso>50&&peso<60){
+         System.out.println("La persona es delgada");}
+     else if(peso>=60&&peso<=80){
+         System.out.println("La persona esta en el peso ideal");}
+     else{
+         System.out.println("La persona es obesa");
+         
+ }}}
